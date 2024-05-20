@@ -1,21 +1,21 @@
 {
-  "name": "market-place-nodejs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  },
+  "name": "loja-sapatenis",
+  "description": "sistema completo de comercialização de sapatos.",
   "version": "1.0.0",
-  "description": "O codigo do mais novo market place",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.4"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+  "license": "ISC"
 }
